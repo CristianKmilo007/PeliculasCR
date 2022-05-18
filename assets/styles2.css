@@ -1,0 +1,22 @@
+/*Global*/
+
+body{
+    background: #141414;
+}
+
+.text-red{
+    color: #e50914;
+}
+
+.bg-red{
+    background-color: #e50914;
+}
+
+.scroll-x{
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}

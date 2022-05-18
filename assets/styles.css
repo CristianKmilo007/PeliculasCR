@@ -1,0 +1,170 @@
+h2{
+    font-size: 100px;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+nav{
+    background-color: rgb(0, 0, 0);
+}
+
+nav > ul > li > a{
+    padding: 0 20px 0 20px;
+    font-size: 25px;
+}
+
+nav > ul > li > a:hover{
+    color: #1f6bfa !important;
+}
+
+
+.search input{
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    color: grey;
+}
+
+.logo img{
+    width: 36px;
+}
+
+.logo h1{
+    font-family: arial;
+}
+
+.container{
+    margin: 1rem 3rem 3rem 3rem;
+}
+
+.card{
+    border-radius: 10px;
+    width: 18rem;
+    overflow: hidden;
+    margin: 1.5rem;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+.card-image{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    transition: all 500ms;
+    height: 465px;
+}
+
+.card-title, .card-text, .price{
+    margin-bottom: 1rem;
+}
+
+.card-body{
+    color: white;
+    padding: 1rem;
+    padding-top: 11rem;
+    position: absolute;
+    height: 467px;
+    background: linear-gradient(360deg, black, black ,transparent);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 500ms;
+}
+
+.card:hover{
+    box-shadow: 0px 0px 10px gray;
+}
+
+.card:hover > img{
+    transform: scale(1.1);
+}
+
+.card:hover > .card-body {
+    opacity: 1;
+    visibility: visible;
+}
+
+.card-title{
+    color: #1f6bfa;
+    font-size: 30px;
+}
+
+.card-text{
+    font-size: 15px;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-end{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.btn-gray{
+    width: 100%;
+    background-color: rgb(155, 155, 155);
+    color: white;
+    transition: background 0.5s, color 0.5s;
+    text-align: center;
+    padding: 0.5rem;
+    margin: 0;
+    margin-top: 25px;
+}
+
+.btn-gray:hover {
+    background-color: #1f6bfa;
+    color: #fff;
+}
+
+section h3{
+    font-size: 50px;
+    padding-left: 6rem;
+    color: gray;
+}
+
+.carousel{
+    margin-bottom: 8rem;
+}
+
+footer .c2{
+    padding-left: 200px;
+}
+
+footer .c2 h2{
+    color: gray;
+}
+
+footer .c2 a {
+    color: gray;
+}
+
+footer .c2 a:hover{
+    color: #1f6bfa;
+}
+
+.redes{
+    color: gray;
+    padding-right: 200px;
+}
+
+.redes a img{
+    width: 70px;
+    margin: 30px;
+}
+
+.scroll-x{
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+
